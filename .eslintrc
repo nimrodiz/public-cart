@@ -21,9 +21,22 @@
         "singleQuote": true,
         "printWidth": 100
       }
-    ]
+    ],
+    "import/prefer-default-export": "off"
   },
   "plugins": [
     "prettier"
-  ]
+  ],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          [
+            "features",
+            "./src/features"
+          ]
+        ]
+      }
+    }
+  }
 }
