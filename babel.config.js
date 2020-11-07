@@ -8,6 +8,7 @@ module.exports = (api) => {
         {
           alias: {
             features: './src/features',
+            components: './src/shared/components',
           },
         },
       ],
